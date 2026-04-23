@@ -115,6 +115,11 @@ async function launchBrowser() {
 
   const isVercel = Boolean(process.env.VERCEL);
   if (isVercel) {
+    // @sparticuz/chromium-min only inflates Lambda shared libs when it detects Lambda runtime vars.
+    // Vercel's Node runtime doesn't expose these vars, so force Node20 Lambda detection to unpack al2023 libs.
+    if (!process.env.AWS_EXECUTION_ENV && !process.env.AWS_LAMBDA_JS_RUNTIME) {
+      process.env.AWS_LAMBDA_JS_RUNTIME = 'nodejs20.x';
+    }
     const packUrl =
       process.env.CHROMIUM_PACK_URL ||
       'https://github.com/Sparticuz/chromium/releases/download/v123.0.1/chromium-v123.0.1-pack.tar';
@@ -122,8 +127,8 @@ async function launchBrowser() {
     return puppeteer.launch({
       args: chromium.args,
       executablePath,
-      headless: true,
-      defaultViewport: { width: 1440, height: 2200 }
+      headless: chromium.headless,
+      defaultViewport: chromium.defaultViewport
     });
   }
 
