@@ -188,7 +188,7 @@ export async function POST(req: NextRequest) {
 
     await page.addStyleTag({ content: printCss });
     await page.evaluate(
-      ({ headerMarkup, footerMarkup }) => {
+      ({ headerMarkup, footerMarkup }: { headerMarkup: string; footerMarkup: string }) => {
         document.querySelectorAll('.pdf-fixed-header,.pdf-fixed-footer').forEach((n) => n.remove());
         if (headerMarkup) document.body.insertAdjacentHTML('beforeend', headerMarkup);
         if (footerMarkup) document.body.insertAdjacentHTML('beforeend', footerMarkup);
