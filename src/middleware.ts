@@ -9,6 +9,20 @@ const intlMiddleware = createIntlMiddleware(routing);
 export function middleware(request: NextRequest) {
   const { pathname, hostname } = request.nextUrl;
 
+  if (pathname === '/') {
+    const redirectUrl = request.nextUrl.clone();
+    redirectUrl.pathname = '/pdf-service';
+    return NextResponse.redirect(redirectUrl, 307);
+  }
+
+  const localeRootMatch = pathname.match(/^\/(en|zh)\/?$/);
+  if (localeRootMatch) {
+    const locale = localeRootMatch[1];
+    const redirectUrl = request.nextUrl.clone();
+    redirectUrl.pathname = `/${locale}/pdf-service`;
+    return NextResponse.redirect(redirectUrl, 307);
+  }
+
   if (hostname === 'www.worldmodelsatlas.site') {
     const redirectUrl = request.nextUrl.clone();
     redirectUrl.hostname = 'worldmodelsatlas.site';
