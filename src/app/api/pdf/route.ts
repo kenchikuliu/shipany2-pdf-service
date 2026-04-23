@@ -1,4 +1,3 @@
-import chromium from '@sparticuz/chromium-min';
 import puppeteer from 'puppeteer-core';
 import { NextRequest, NextResponse } from 'next/server';
 
@@ -115,11 +114,12 @@ async function launchBrowser() {
 
   const isVercel = Boolean(process.env.VERCEL);
   if (isVercel) {
-    // @sparticuz/chromium-min only inflates Lambda shared libs when it detects Lambda runtime vars.
-    // Vercel's Node runtime doesn't expose these vars, so force Node20 Lambda detection to unpack al2023 libs.
+    // @sparticuz/chromium-min applies Lambda env setup during module init,
+    // so we must set runtime vars before dynamically importing the module.
     if (!process.env.AWS_EXECUTION_ENV && !process.env.AWS_LAMBDA_JS_RUNTIME) {
       process.env.AWS_LAMBDA_JS_RUNTIME = 'nodejs20.x';
     }
+    const chromium = (await import('@sparticuz/chromium-min')).default;
     const packUrl =
       process.env.CHROMIUM_PACK_URL ||
       'https://github.com/Sparticuz/chromium/releases/download/v123.0.1/chromium-v123.0.1-pack.tar';
