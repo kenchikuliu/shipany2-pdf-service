@@ -115,7 +115,10 @@ async function launchBrowser() {
 
   const isVercel = Boolean(process.env.VERCEL);
   if (isVercel) {
-    const executablePath = await chromium.executablePath();
+    const packUrl =
+      process.env.CHROMIUM_PACK_URL ||
+      'https://github.com/Sparticuz/chromium/releases/download/v123.0.1/chromium-v123.0.1-pack.tar';
+    const executablePath = await chromium.executablePath(packUrl);
     return puppeteer.launch({
       args: chromium.args,
       executablePath,
