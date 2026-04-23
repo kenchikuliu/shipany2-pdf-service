@@ -1,0 +1,135 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "name": "Navigation Item Name",
+    "tagline": "Tagline",
+    "description": "Description",
+    "logo_url": "Logo URL",
+    "url": "Website URL",
+    "thumbnail_url": "Thumbnail URL",
+    "pricing_model": "Pricing Model",
+    "discount_code": "Discount Code",
+    "github_url": "GitHub URL",
+    "status": "Status",
+    "review_status": "Review Status",
+    "submission_type": "Promotion Submission Type",
+    "is_featured": "Featured Placement",
+    "categories": "Categories",
+    "paid_at": "Paid At",
+    "created_at": "Created At",
+    "updated_at": "Updated At"
+  },
+  "tips": {
+    "slug": "Unique identifier, e.g. my-tool-name",
+    "tagline": "Short description shown on cards.",
+    "pricing_model": "This indicates whether the linked product itself is free or paid for end users. It is not the paid promotion plan used during submission.",
+    "is_featured": "Controls whether this navigation item gets featured placement. It may result from a paid submission, but it is separate from the pricing model."
+  },
+  "list": {
+    "title": "Navigation Items",
+    "crumbs": {
+      "admin": "Admin",
+      "nav_items": "Nav Items"
+    },
+    "buttons": {
+      "add": "Add New",
+      "edit": "Edit",
+      "view": "View",
+      "approve": "Approve",
+      "unpublish": "Unpublish",
+      "reject": "Reject",
+      "delete": "Archive",
+      "search": "Search",
+      "reset": "Reset",
+      "clear": "Clear",
+      "cancel": "Cancel"
+    },
+    "tabs": {
+      "all": "All",
+      "draft": "Draft",
+      "live": "Live",
+      "pending": "Pending",
+      "rejected": "Rejected"
+    }
+  },
+  "values": {
+    "status_draft": "Draft",
+    "status_live": "Live",
+    "status_pending": "Pending Review",
+    "status_rejected": "Rejected",
+    "submission_free": "Standard Submit",
+    "submission_paid": "Featured Submit",
+    "pricing_free": "Free",
+    "pricing_paid": "Paid",
+    "featured_yes": "Featured",
+    "featured_no": "Standard"
+  },
+  "messages": {
+    "submission_incomplete": "This navigation item submission has not been completed yet.",
+    "invalid_categories": "Invalid categories selection.",
+    "categories_required": "Please select at least one category.",
+    "required_fields": "Slug, name, and website URL are required.",
+    "not_pending_review": "This navigation item is no longer pending review.",
+    "add_success": "Navigation item added successfully.",
+    "edit_success": "Navigation item updated successfully.",
+    "add_failed": "Failed to add navigation item.",
+    "update_failed": "Failed to update navigation item.",
+    "not_found": "Navigation item not found.",
+    "approve_success": "Navigation item approved successfully.",
+    "unpublish_success": "Navigation item unpublished successfully.",
+    "reject_success": "Navigation item rejected successfully."
+  },
+  "add": {
+    "title": "Add Navigation Item",
+    "crumbs": {
+      "admin": "Admin",
+      "nav_items": "Nav Items",
+      "add": "Add"
+    },
+    "buttons": {
+      "submit": "Submit"
+    }
+  },
+  "edit": {
+    "title": "Edit Navigation Item",
+    "crumbs": {
+      "admin": "Admin",
+      "nav_items": "Nav Items",
+      "edit": "Edit"
+    },
+    "buttons": {
+      "submit": "Update"
+    }
+  },
+  "approve": {
+    "title": "Approve Navigation Item",
+    "description": "Confirm approval for this navigation item. The table will refresh on the current page after success.",
+    "crumbs": {
+      "admin": "Admin",
+      "nav_items": "Nav Items",
+      "approve": "Approve"
+    },
+    "buttons": {
+      "submit": "Approve and Publish"
+    }
+  },
+  "reject": {
+    "title": "Reject Navigation Item",
+    "description": "Confirm rejection for this navigation item. The table will refresh on the current page after success.",
+    "crumbs": {
+      "admin": "Admin",
+      "nav_items": "Nav Items",
+      "reject": "Reject"
+    },
+    "buttons": {
+      "submit": "Reject Submission"
+    }
+  },
+  "unpublish": {
+    "title": "Unpublish Navigation Item",
+    "description": "Confirm unpublishing this navigation item. It will no longer be visible in the public navigation.",
+    "buttons": {
+      "submit": "Unpublish"
+    }
+  }
+}

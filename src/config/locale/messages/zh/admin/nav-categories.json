@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "name": "分类名称",
+    "slug": "路径",
+    "icon": "图标",
+    "sort": "排序",
+    "status": "状态",
+    "created_at": "创建时间",
+    "updated_at": "更新时间"
+  },
+  "tips": {
+    "slug": "唯一标识，例如 ai-tools。",
+    "icon": "Lucide 图标名称，例如 github、tag、globe。"
+  },
+  "list": {
+    "title": "导航分类管理",
+    "crumbs": {
+      "admin": "管理员",
+      "nav_categories": "导航分类"
+    },
+    "buttons": {
+      "add": "添加分类",
+      "edit": "编辑",
+      "delete": "归档"
+    }
+  },
+  "messages": {
+    "add_success": "分类添加成功。",
+    "edit_success": "分类更新成功。",
+    "required_fields": "分类名称和路径不能为空。",
+    "add_failed": "分类添加失败。",
+    "update_failed": "分类更新失败。"
+  },
+  "values": {
+    "status_active": "启用",
+    "status_inactive": "停用"
+  },
+  "add": {
+    "title": "添加新分类",
+    "crumbs": {
+      "admin": "管理员",
+      "nav_categories": "导航分类",
+      "add": "添加"
+    },
+    "buttons": {
+      "submit": "提交"
+    }
+  },
+  "edit": {
+    "title": "编辑分类",
+    "crumbs": {
+      "admin": "管理员",
+      "nav_categories": "导航分类",
+      "edit": "编辑"
+    },
+    "buttons": {
+      "submit": "更新"
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "fields": {
+    "slug": "Slug/路径",
+    "name": "导航项名称",
+    "tagline": "标语",
+    "description": "详细描述",
+    "logo_url": "Logo地址",
+    "url": "网址",
+    "thumbnail_url": "预览图地址",
+    "pricing_model": "收费模式",
+    "discount_code": "优惠码",
+    "github_url": "GitHub地址",
+    "status": "状态",
+    "review_status": "审核状态",
+    "submission_type": "推广提交类型",
+    "is_featured": "精选展示",
+    "categories": "分类",
+    "paid_at": "支付时间",
+    "created_at": "创建时间",
+    "updated_at": "更新时间",
+    "pricing": "收费模式",
+    "pricing_free": "免费",
+    "pricing_paid": "付费",
+    "platforms": "支持平台",
+    "listed": "收录时间"
+  },
+  "tips": {
+    "slug": "唯一标识，例如 my-tool-name",
+    "tagline": "显示在卡片上的简短介绍。",
+    "pricing_model": "这里表示该导航项对应产品本身对用户是免费还是付费，不是提交审核时购买的推广方案。",
+    "is_featured": "控制该导航项是否进入精选展示位；它和是否付费提交有关，但并不等同于收费模式。"
+  },
+  "list": {
+    "title": "导航项目",
+    "crumbs": {
+      "admin": "管理员",
+      "nav_items": "导航项目"
+    },
+    "buttons": {
+      "add": "添加新项目",
+      "edit": "修改",
+      "view": "预览",
+      "approve": "通过",
+      "unpublish": "下架",
+      "reject": "驳回",
+      "delete": "删除",
+      "search": "搜索",
+      "reset": "重置",
+      "clear": "清空",
+      "cancel": "取消"
+    },
+    "tabs": {
+      "all": "全部",
+      "draft": "草稿",
+      "live": "已上线",
+      "pending": "审核中",
+      "rejected": "已驳回"
+    }
+  },
+  "values": {
+    "status_draft": "草稿",
+    "status_live": "已上线",
+    "status_pending": "待审核",
+    "status_rejected": "已驳回",
+    "submission_free": "标准提交",
+    "submission_paid": "精选提交",
+    "pricing_free": "免费",
+    "pricing_paid": "付费",
+    "featured_yes": "精选",
+    "featured_no": "普通"
+  },
+  "messages": {
+    "submission_incomplete": "该提交尚未完成。",
+    "invalid_categories": "分类数据无效。",
+    "categories_required": "请至少选择一个分类。",
+    "required_fields": "Slug、导航项名称和网址不能为空。",
+    "not_pending_review": "该导航项已不处于待审核状态。",
+    "add_success": "导航项添加成功。",
+    "edit_success": "导航项更新成功。",
+    "add_failed": "导航项添加失败。",
+    "update_failed": "导航项更新失败。",
+    "not_found": "未找到该导航项。",
+    "approve_success": "导航项已通过审核。",
+    "unpublish_success": "导航项已下架。",
+    "reject_success": "导航项已驳回。"
+  },
+  "add": {
+    "title": "添加新项目",
+    "crumbs": {
+      "admin": "管理员",
+      "nav_items": "导航项目",
+      "add": "添加"
+    },
+    "buttons": {
+      "submit": "提交"
+    }
+  },
+  "edit": {
+    "title": "修改项目",
+    "crumbs": {
+      "admin": "管理员",
+      "nav_items": "导航项目",
+      "edit": "修改"
+    },
+    "buttons": {
+      "submit": "更新内容"
+    }
+  },
+  "approve": {
+    "title": "通过导航项",
+    "description": "确认通过该导航项。成功后会在当前页刷新表格数据。",
+    "crumbs": {
+      "admin": "管理员",
+      "nav_items": "导航项目",
+      "approve": "通过"
+    },
+    "buttons": {
+      "submit": "通过并发布"
+    }
+  },
+  "reject": {
+    "title": "驳回导航项",
+    "description": "确认驳回该导航项。成功后会在当前页刷新表格数据。",
+    "crumbs": {
+      "admin": "管理员",
+      "nav_items": "导航项目",
+      "reject": "驳回"
+    },
+    "buttons": {
+      "submit": "确认驳回"
+    }
+  },
+  "unpublish": {
+    "title": "下架导航项",
+    "description": "确认下架该导航项。下架后它将不再出现在前台导航中。",
+    "buttons": {
+      "submit": "确认下架"
+    }
+  }
+}

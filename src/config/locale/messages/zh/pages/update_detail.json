@@ -1,0 +1,14 @@
+{
+  "date": "日期",
+  "source": "来源",
+  "type": "类型",
+  "importance": "重要级别",
+  "topics": "相关专题",
+  "related_papers": "相关论文",
+  "related_projects": "相关项目",
+  "next_reads": "继续阅读",
+  "next_hub": "聚合页",
+  "next_topic": "专题",
+  "next_paper": "论文",
+  "source_link": "原始来源"
+}

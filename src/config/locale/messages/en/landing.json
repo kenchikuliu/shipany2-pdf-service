@@ -1,0 +1,224 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "World Models Atlas",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "World Models Atlas",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Updates",
+          "url": "/updates",
+          "icon": "Clock"
+        },
+        {
+          "title": "Papers",
+          "url": "/papers",
+          "icon": "FileText"
+        },
+        {
+          "title": "Projects",
+          "url": "/projects",
+          "icon": "Boxes"
+        },
+        {
+          "title": "Topics",
+          "icon": "Orbit",
+          "children": [
+            {
+              "title": "Video world models",
+              "description": "Track generative and predictive video systems",
+              "url": "/topics/video-world-models",
+              "icon": "RiVideoLine"
+            },
+            {
+              "title": "Embodied world models",
+              "description": "Follow robotics and physical AI systems",
+              "url": "/topics/embodied-world-models",
+              "icon": "RiRobot2Line"
+            },
+            {
+              "title": "Driving world models",
+              "description": "Explore simulation and forecasting for autonomy",
+              "url": "/topics/driving-world-models",
+              "icon": "Car"
+            }
+          ]
+        },
+        {
+          "title": "Context",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "Timeline",
+              "description": "Read the major milestones in order",
+              "url": "/timeline",
+              "icon": "History"
+            },
+            {
+              "title": "About",
+              "description": "Understand what the site tracks",
+              "url": "/about",
+              "icon": "Info"
+            },
+            {
+              "title": "Docs",
+              "description": "Read repo documentation",
+              "url": "/docs",
+              "target": "_blank",
+              "icon": "BookOpenText"
+            }
+          ]
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Billing",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Activity",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "World Models Atlas",
+      "description": "World Models Atlas is a bilingual navigation site for world-model papers, systems, timeline milestones, and high-signal weekly updates.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "World Models Atlas",
+        "width": 1024,
+        "height": 1024
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "About",
+          "children": [
+            {
+              "title": "About this site",
+              "url": "/about",
+              "target": "_self"
+            },
+            {
+              "title": "Timeline",
+              "url": "/timeline",
+              "target": "_self"
+            },
+            {
+              "title": "Updates",
+              "url": "/updates",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Papers",
+              "url": "/papers",
+              "target": "_self"
+            },
+            {
+              "title": "Projects",
+              "url": "/projects",
+              "target": "_self"
+            },
+            {
+              "title": "Docs",
+              "url": "/docs",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Topics",
+          "children": [
+            {
+              "title": "Video",
+              "url": "/topics/video-world-models",
+              "target": "_self"
+            },
+            {
+              "title": "Embodied",
+              "url": "/topics/embodied-world-models",
+              "target": "_self"
+            },
+            {
+              "title": "Driving",
+              "url": "/topics/driving-world-models",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "Github",
+          "url": "https://github.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@your-domain.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "世界模型图谱",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "世界模型图谱",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "最新进展",
+          "url": "/updates",
+          "icon": "Clock"
+        },
+        {
+          "title": "论文",
+          "url": "/papers",
+          "icon": "FileText"
+        },
+        {
+          "title": "项目",
+          "url": "/projects",
+          "icon": "Boxes"
+        },
+        {
+          "title": "专题",
+          "icon": "Orbit",
+          "children": [
+            {
+              "title": "视频世界模型",
+              "description": "追踪生成式与预测式视频系统",
+              "url": "/topics/video-world-models",
+              "icon": "RiVideoLine"
+            },
+            {
+              "title": "具身世界模型",
+              "description": "关注机器人与 Physical AI 系统",
+              "url": "/topics/embodied-world-models",
+              "icon": "RiRobot2Line"
+            },
+            {
+              "title": "自动驾驶世界模型",
+              "description": "浏览面向自治系统的仿真与预测",
+              "url": "/topics/driving-world-models",
+              "icon": "Car"
+            }
+          ]
+        },
+        {
+          "title": "背景",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "时间线",
+              "description": "按顺序阅读关键里程碑",
+              "url": "/timeline",
+              "icon": "History"
+            },
+            {
+              "title": "关于本站",
+              "description": "了解本站在追踪什么",
+              "url": "/about",
+              "icon": "Info"
+            },
+            {
+              "title": "文档",
+              "description": "阅读仓库文档",
+              "url": "/docs",
+              "target": "_blank",
+              "icon": "BookOpenText"
+            }
+          ]
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "账单",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "活动",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "世界模型图谱",
+      "description": "世界模型图谱是一个中英双语专题导航站，整理世界模型论文、系统、关键时间线和高信号每周进展。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "世界模型图谱",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "关于我们",
+          "children": [
+            {
+              "title": "关于本站",
+              "url": "/about",
+              "target": "_self"
+            },
+            {
+              "title": "时间线",
+              "url": "/timeline",
+              "target": "_self"
+            },
+            {
+              "title": "最新进展",
+              "url": "/updates",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "资源",
+          "children": [
+            {
+              "title": "论文",
+              "url": "/papers",
+              "target": "_self"
+            },
+            {
+              "title": "项目",
+              "url": "/projects",
+              "target": "_self"
+            },
+            {
+              "title": "文档",
+              "url": "/docs",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "专题",
+          "children": [
+            {
+              "title": "视频",
+              "url": "/topics/video-world-models",
+              "target": "_self"
+            },
+            {
+              "title": "具身",
+              "url": "/topics/embodied-world-models",
+              "target": "_self"
+            },
+            {
+              "title": "自动驾驶",
+              "url": "/topics/driving-world-models",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "Github",
+          "url": "https://github.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "邮箱",
+          "icon": "Mail",
+          "url": "mailto:support@your-domain.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true
+  }
+}

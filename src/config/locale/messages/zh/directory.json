@@ -1,0 +1,339 @@
+{
+  "layout": {
+    "sidebar": {
+      "title": "AI Navs",
+      "special_links": {
+        "all": "全部导航",
+        "affiliate": "推广大使",
+        "discount": "特惠工具"
+      },
+      "quick_links": {
+        "search": "搜索",
+        "explore": "发现",
+        "submit": "提交"
+      },
+      "categories_title": "分类浏览"
+    }
+  },
+  "home": {
+    "metadata": {
+      "title": "世界模型最新进展、论文、项目与周报入口",
+      "description": "一个聚合世界模型最新进展的中英双语入口，覆盖核心论文、代表项目、关键时间线、具身智能与 Physical AI 的每周动态。",
+      "keywords": "世界模型最新进展, 世界模型论文, 世界模型项目, 世界模型周报, 具身智能世界模型, physical ai, 世界模型时间线"
+    },
+    "title": "把世界模型论文、系统与每周突破整理在一起",
+    "description": "一个中英双语的世界模型专题导航站，聚合核心论文、代表项目、关键时间线，以及最新研究和产业进展。",
+    "hero_badge": "世界模型情报站",
+    "hero_papers_label": "重点论文",
+    "hero_updates_label": "本周进展",
+    "hero_topics_label": "核心专题",
+    "hero_papers_hint": "精选阅读清单",
+    "hero_updates_hint": "高信号周度变化",
+    "hero_topics_hint": "可继续深入的分支专题",
+    "hero_primary_cta": "浏览论文",
+    "hero_secondary_cta": "追踪进展",
+    "hero_latest_label": "本周头条",
+    "hero_latest_cta": "查看这条更新",
+    "hero_quick_access_label": "快速入口",
+    "paper_cta": "论文简报",
+    "update_cta": "查看简报",
+    "topic_cta": "进入专题",
+    "timeline_cta": "查看时间线",
+    "quick_access": {
+      "updates": {
+        "label": "最新进展",
+        "description": "把每周研究和产品动态放到同一条更新流里。"
+      },
+      "timeline": {
+        "label": "关键时间线",
+        "description": "快速回看世界模型的重要发布与拐点。"
+      },
+      "papers": {
+        "label": "核心论文",
+        "description": "从经典必读和编辑部摘要开始补课。"
+      },
+      "topics": {
+        "label": "专题地图",
+        "description": "从视频、自动驾驶到具身世界模型分支切入。"
+      }
+    },
+    "signal_deck": {
+      "title": "先从最高信号的入口开始看",
+      "description": "这一层就是给你快速扫一遍全站：先看最新发布，再补核心论文，然后顺着值得跟进的世界模型专题往下钻。",
+      "updates": "最新更新",
+      "papers": "先读这些论文",
+      "topics": "热门专题"
+    },
+    "editor_picks": {
+      "title": "编辑部精选",
+      "description": "先抓这三个锚点往下看会更快：一条更新、一篇论文、一个项目，基本代表了当前站内最值得继续深入的方向。",
+      "labels": {
+        "update": "头条更新",
+        "paper": "核心论文",
+        "project": "代表项目"
+      }
+    },
+    "search_paths": {
+      "title": "搜索入口",
+      "description": "这几个聚合页对应了用户最常见的搜索方式：最新论文、项目版图、Physical AI 和具身智能研究。",
+      "links": {
+        "latest_papers": {
+          "label": "最新世界模型论文",
+          "description": "按时间快速扫最近值得读的研究。"
+        },
+        "projects": {
+          "label": "世界模型项目",
+          "description": "查看平台、产品和代表性系统。"
+        },
+        "physical_ai": {
+          "label": "Physical AI 世界模型",
+          "description": "聚合机器人、具身和自动驾驶方向。"
+        },
+        "embodied_papers": {
+          "label": "具身智能论文",
+          "description": "专门面向具身和机器人方向的阅读入口。"
+        }
+      }
+    },
+    "sections": {
+      "this_week": "本周重点进展",
+      "topics": "专题地图",
+      "timeline": "关键时间线",
+      "must_read_papers": "必读论文",
+      "notable_projects": "代表项目"
+    },
+    "project_cta": "查看详情"
+  },
+  "category": {
+    "title": "最佳 {name} 工具",
+    "description": "探索我们精选的 {name} 工具与资源集合。",
+    "featured": "精选推荐",
+    "all": "所有 {name} 工具",
+    "empty": "该分类下暂无工具。"
+  },
+  "affiliate": {
+    "title": "推广大使计划",
+    "description": "发现高额佣金的推广计划，适合创作者和营销人员。",
+    "empty": "暂无推广计划。"
+  },
+  "discount": {
+    "title": "优惠折扣",
+    "description": "高级工具独家优惠码与折扣。",
+    "empty": "暂无相关折扣工具。"
+  },
+  "search": {
+    "title": "搜索工具与产品",
+    "description": "按名称、描述或分类搜索目录内容。",
+    "search_placeholder": "按名称、标语或描述搜索...",
+    "search_button": "搜索",
+    "searching": "搜索中...",
+    "all": "全部",
+    "clear": "清除",
+    "results_count": "{count, plural, =0 {找到 0 条结果} one {找到 1 条结果} other {找到 # 条结果}}",
+    "results_count_with_query": "{count, plural, =0 {找到 0 条结果} one {找到 1 条结果} other {找到 # 条结果}}，关键词“{query}”",
+    "latest_tools": "最新工具",
+    "empty_title": "未找到结果",
+    "empty_description": "试试调整搜索词，或者清除筛选条件。",
+    "loading_more": "加载更多中..."
+  },
+  "explore": {
+    "title": "浏览全部工具",
+    "description": "浏览完整目录，并按工具收费模式筛选你需要的产品。",
+    "pricing_model": "工具收费模式",
+    "all_pricing": "全部定价",
+    "pricing_free": "免费",
+    "pricing_paid": "付费",
+    "empty_title": "未找到产品",
+    "empty_description": "试试调整筛选条件，查看更多产品。",
+    "loading_more": "加载更多中..."
+  },
+  "item": {
+    "back": "返回首页",
+    "featured": "精选",
+    "badge_new": "最新",
+    "badge_deal": "特惠",
+    "discount": "专属优惠: {code}",
+    "about": "关于工具",
+    "visit": "访问官网",
+    "github": "查看源码",
+    "affiliate": "推广",
+    "pricing": "工具收费模式",
+    "pricing_free": "免费",
+    "pricing_paid": "付费",
+    "platforms": "支持平台",
+    "listed": "收录时间",
+    "social_media": "社交媒体",
+    "authority_badge": "权威徽章",
+    "authority_badge_desc": "将我们的徽章添加到您的网站以展示您的可信度。",
+    "about_title": "关于 {name}",
+    "more_about": "更多关于 {name}",
+    "show_more_styles": "显示更多样式",
+    "discount_code": "优惠码",
+    "home": "首页",
+    "featured_on": "收录于",
+    "featured_items": "精选列表",
+    "alternative_tools": "相关工具",
+    "category": "分类",
+    "featured_note_title": "精选展示",
+    "featured_note_description": "该工具处于精选展示队列中，会在目录列表里获得更高的曝光位置。"
+  },
+  "submit": {
+    "badge": "扩大你的曝光",
+    "title": "提交工具",
+    "description": "向数千名活跃用户展示您的工具。简单三步即可完成提交。",
+    "steps": {
+      "details": "填写资料",
+      "details_desc": "工具信息",
+      "promote": "选择方案",
+      "promote_desc": "推广计划",
+      "success": "提交成功",
+      "success_desc": "全部完成"
+    },
+    "auth_required": {
+      "title": "登录后再提交工具",
+      "description": "你可以先浏览提交流程，但真正提交工具需要登录账号，这样系统才能把提交记录和支付订单正确关联到你。",
+      "login": "登录后继续",
+      "back_home": "返回首页"
+    },
+    "form": {
+      "section_title": "工具资料",
+      "section_description": "请填写准确的信息，方便用户更快发现你的工具。",
+      "name": "工具名称",
+      "name_placeholder": "AI 助手",
+      "url": "网址",
+      "tagline": "一句话简介",
+      "tagline_placeholder": "面向开发者的高效 AI 工具",
+      "description": "详细描述",
+      "description_placeholder": "介绍一下你的工具、核心能力以及适用人群。",
+      "logo": "图标",
+      "thumbnail": "封面图",
+      "pricing": "工具收费模式",
+      "pricing_placeholder": "选择工具收费模式",
+      "pricing_hint": "这里填报的是你的产品对用户是免费还是付费。",
+      "categories": "所属分类",
+      "categories_hint": "至少选择一个分类。",
+      "github": "GitHub 链接",
+      "discount": "专属优惠码",
+      "unexpected_error": "发生异常，请稍后重试。",
+      "next": "下一步"
+    },
+    "validation": {
+      "name_required": "请填写工具名称。",
+      "url_required": "请填写网址。",
+      "url_invalid": "请输入有效的网址。",
+      "tagline_required": "请填写一句话简介。",
+      "description_required": "请填写详细描述。",
+      "logo_required": "请上传 Logo。",
+      "thumbnail_required": "请上传封面图。",
+      "categories_required": "请至少选择一个分类。"
+    },
+    "pricing_options": {
+      "free": "免费",
+      "paid": "付费"
+    },
+    "payment": {
+      "title": "选择你的提交流量方案",
+      "description": "这一步是决定是否购买加速审核与精选曝光，不会修改你在上一步填写的工具收费模式。",
+      "processing": "正在跳转支付...",
+      "failed": "支付失败",
+      "checkout_request_failed": "暂时无法发起支付，请稍后重试。",
+      "checkout_url_missing": "支付链接不可用，请稍后重试。",
+      "free": {
+        "title": "标准提交",
+        "description": "正常进入审核并收录到导航目录",
+        "action": "选择免费方案",
+        "features": [
+          "标准收录展示",
+          "SEO 优化页面",
+          "社区支持",
+          "7-14 天审核周期"
+        ]
+      },
+      "pro": {
+        "badge": "推荐",
+        "title": "精选提交",
+        "description": "购买加速审核和更高展示权重",
+        "product_name": "精选提交",
+        "order_description": "{name} 的精选提交",
+        "unit": "限时尝鲜",
+        "action": "立即支付并提交",
+        "choose_provider": "选择支付渠道",
+        "features": [
+          "在全站搜索和列表页面获得精选展示",
+          "享受 24 小时内的加速审核服务",
+          "在卡片、搜索结果和详情页佩戴专属精选徽章",
+          "一次性永久支付，无任何隐藏费用",
+          "永久精选状态，无需按月续费"
+        ]
+      }
+    },
+    "messages": {
+      "submit_success": "工具提交成功。",
+      "item_id_required": "缺少项目 ID。",
+      "item_not_found": "未找到该工具。",
+      "submit_failed": "提交工具失败。",
+      "complete_failed": "完成免费提交流程失败。",
+      "checkout_item_id_required": "缺少项目 ID。",
+      "checkout_item_not_found": "未找到该工具。",
+      "checkout_invalid_status": "该工具当前无法提交。",
+      "checkout_no_auth": "请先登录。",
+      "checkout_provider_missing": "尚未配置支付方式。",
+      "checkout_provider_not_found": "未找到支付方式。",
+      "checkout_creem_product_missing": "目录提交的 Creem 商品未配置。",
+      "checkout_failed": "创建支付会话失败。",
+      "checkout_in_progress": "已有进行中的支付会话，请先完成支付或稍后再试。"
+    },
+    "success": {
+      "title": "提交已收到",
+      "description": "你的工具已经提交成功。我们会在审核通过后通知你上线结果。",
+      "back_home": "返回首页",
+      "submit_another": "继续提交",
+      "next_title": "接下来会发生什么？",
+      "next_steps": [
+        "内容团队会审核提交信息的质量和准确性。",
+        "审核通过后，工具会显示在对应分类中。",
+        "审核完成后，你会收到邮件通知。"
+      ]
+    },
+    "image_upload": {
+      "invalid_type": "仅支持上传图片文件。",
+      "file_too_large": "图片大小不能超过 2MB。",
+      "upload_success": "图片上传成功。",
+      "upload_failed": "图片上传失败。",
+      "alt_uploaded": "已上传图片",
+      "change": "更换",
+      "upload_logo": "上传 Logo",
+      "upload_thumbnail": "上传封面图",
+      "spec": "限制 2MB • JPG、PNG、WebP"
+    }
+  },
+  "categories": {
+    "ai": "人工智能",
+    "directory": "目录导航",
+    "image": "图像生成与编辑",
+    "video": "视频",
+    "chatbots": "聊天机器人",
+    "writing": "写作",
+    "audio": "音频",
+    "boilerplates": "模板脚手架",
+    "design": "设计",
+    "content-creators": "内容创作",
+    "building-products": "产品构建",
+    "social-media": "社交媒体",
+    "education": "教育",
+    "automation": "自动化",
+    "health": "健康",
+    "productivity": "效率",
+    "translation": "翻译",
+    "games": "游戏",
+    "browser-extensions": "浏览器扩展",
+    "seo": "SEO",
+    "daily-life": "日常生活",
+    "advertising": "广告投放",
+    "developer-tools": "开发者工具",
+    "marketing": "营销",
+    "no-code": "无代码",
+    "analytics": "数据分析",
+    "ai-tools": "AI 工具"
+  }
+}

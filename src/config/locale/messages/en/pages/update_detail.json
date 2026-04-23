@@ -1,0 +1,14 @@
+{
+  "date": "Date",
+  "source": "Source",
+  "type": "Type",
+  "importance": "Importance",
+  "topics": "Related topics",
+  "related_papers": "Related papers",
+  "related_projects": "Related projects",
+  "next_reads": "Next reads",
+  "next_hub": "Hub",
+  "next_topic": "Topic",
+  "next_paper": "Paper",
+  "source_link": "Original source"
+}

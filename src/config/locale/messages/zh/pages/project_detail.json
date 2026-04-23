@@ -1,0 +1,17 @@
+{
+  "organization": "机构",
+  "overview": "项目概览",
+  "type": "类型",
+  "maturity": "成熟度",
+  "release_date": "发布时间",
+  "topics": "相关专题",
+  "related_papers": "相关论文",
+  "related_updates": "相关进展",
+  "next_reads": "继续阅读",
+  "next_hub": "聚合页",
+  "next_topic": "专题",
+  "next_paper": "论文",
+  "official_link": "官网页面",
+  "demo_link": "演示",
+  "repo_link": "代码仓库"
+}

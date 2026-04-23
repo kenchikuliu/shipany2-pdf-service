@@ -1,0 +1,339 @@
+{
+  "layout": {
+    "sidebar": {
+      "title": "AI Navs",
+      "special_links": {
+        "all": "All Navs",
+        "affiliate": "Affiliates",
+        "discount": "Discounts"
+      },
+      "quick_links": {
+        "search": "Search",
+        "explore": "Explore",
+        "submit": "Submit"
+      },
+      "categories_title": "Categories"
+    }
+  },
+  "home": {
+    "metadata": {
+      "title": "Latest World Model Research, Papers, Projects, and Weekly Progress",
+      "description": "Track the latest world model research in one bilingual entry point: curated papers, projects, milestone timelines, embodied AI, physical AI, and weekly progress.",
+      "keywords": "latest world model research, world model papers, world model projects, world model weekly updates, embodied ai world models, physical ai research, world model timeline"
+    },
+    "title": "Track world-model papers, systems, and weekly breakthroughs",
+    "description": "A bilingual navigation site for the world-model ecosystem: core papers, projects, milestone timeline, and the latest research and industry progress.",
+    "hero_badge": "World Models Intelligence",
+    "hero_papers_label": "Featured Papers",
+    "hero_updates_label": "Weekly Signals",
+    "hero_topics_label": "Core Topics",
+    "hero_papers_hint": "Curated reading list",
+    "hero_updates_hint": "High-signal weekly changes",
+    "hero_topics_hint": "Topic branches to explore",
+    "hero_primary_cta": "Browse papers",
+    "hero_secondary_cta": "Track updates",
+    "hero_latest_label": "Lead Signal",
+    "hero_latest_cta": "Open this update",
+    "hero_quick_access_label": "Quick access",
+    "paper_cta": "Paper brief",
+    "update_cta": "Read brief",
+    "topic_cta": "Open topic",
+    "timeline_cta": "View timeline",
+    "quick_access": {
+      "updates": {
+        "label": "Latest updates",
+        "description": "Read weekly research and product signals in one stream."
+      },
+      "timeline": {
+        "label": "Milestone timeline",
+        "description": "Jump through major world-model releases and inflection points."
+      },
+      "papers": {
+        "label": "Core papers",
+        "description": "Start with the canonical reading list and editorial briefs."
+      },
+      "topics": {
+        "label": "Topic map",
+        "description": "Open the main branches from video to embodied world models."
+      }
+    },
+    "signal_deck": {
+      "title": "Start with the highest-signal entry points",
+      "description": "Use this layer as the fast scan: track the latest releases, jump into foundational papers, and branch into the world-model topics worth following next.",
+      "updates": "Latest updates",
+      "papers": "New papers to read",
+      "topics": "Hot topics"
+    },
+    "editor_picks": {
+      "title": "Editor picks",
+      "description": "Use these three anchors to go deeper fast: one update, one paper, and one project that best represent what matters on the site right now.",
+      "labels": {
+        "update": "Lead update",
+        "paper": "Core paper",
+        "project": "Featured project"
+      }
+    },
+    "search_paths": {
+      "title": "Search paths",
+      "description": "These hub pages target the main ways readers search for world-model information: latest papers, projects, physical-AI systems, and embodied AI research.",
+      "links": {
+        "latest_papers": {
+          "label": "Latest world model papers",
+          "description": "A recency-first reading list across the field."
+        },
+        "projects": {
+          "label": "World model projects",
+          "description": "Platforms, demos, and products worth tracking."
+        },
+        "physical_ai": {
+          "label": "Physical AI world models",
+          "description": "A hub for robotics, embodied systems, and driving."
+        },
+        "embodied_papers": {
+          "label": "Embodied AI papers",
+          "description": "Focused reading for embodied and robotics directions."
+        }
+      }
+    },
+    "sections": {
+      "this_week": "This Week",
+      "topics": "Topic Map",
+      "timeline": "Milestone Timeline",
+      "must_read_papers": "Must-Read Papers",
+      "notable_projects": "Notable Projects"
+    },
+    "project_cta": "View details"
+  },
+  "category": {
+    "title": "Best {name} Tools",
+    "description": "Explore our curated collection of {name} tools and resources.",
+    "featured": "Featured",
+    "all": "All {name} Tools",
+    "empty": "No tools in this category yet."
+  },
+  "affiliate": {
+    "title": "Affiliate Programs",
+    "description": "Discover high-paying affiliate programs for creators and marketers.",
+    "empty": "No affiliate programs found."
+  },
+  "discount": {
+    "title": "Discount Deals",
+    "description": "Exclusive discount codes and deals for premium tools.",
+    "empty": "No discount deals available yet."
+  },
+  "search": {
+    "title": "Search Tools & Products",
+    "description": "Search our directory by name, description, or category.",
+    "search_placeholder": "Search by name, tagline, or description...",
+    "search_button": "Search",
+    "searching": "Searching...",
+    "all": "All",
+    "clear": "Clear",
+    "results_count": "{count, plural, =0 {Found 0 results} one {Found 1 result} other {Found # results}}",
+    "results_count_with_query": "{count, plural, =0 {Found 0 results} one {Found 1 result} other {Found # results}} for \"{query}\"",
+    "latest_tools": "Latest tools",
+    "empty_title": "No results found",
+    "empty_description": "Try adjusting your search terms or clearing the filters.",
+    "loading_more": "Loading More..."
+  },
+  "explore": {
+    "title": "Explore All Tools",
+    "description": "Browse our directory and filter products by how they charge end users.",
+    "pricing_model": "Tool Pricing Model",
+    "all_pricing": "All Pricing",
+    "pricing_free": "Free",
+    "pricing_paid": "Paid",
+    "empty_title": "No products found",
+    "empty_description": "Try adjusting your filters to find more products.",
+    "loading_more": "Loading More..."
+  },
+  "item": {
+    "back": "Back to AI Navs",
+    "featured": "Featured",
+    "badge_new": "NEW",
+    "badge_deal": "DEAL",
+    "discount": "Discount: {code}",
+    "about": "About",
+    "visit": "Visit Website",
+    "github": "GitHub",
+    "affiliate": "Affiliate",
+    "pricing": "Tool Pricing",
+    "pricing_free": "Free",
+    "pricing_paid": "Paid",
+    "platforms": "Platforms",
+    "listed": "Listed",
+    "social_media": "Social Media",
+    "authority_badge": "Authority Badge",
+    "authority_badge_desc": "Showcase your credibility by adding our badge to your website.",
+    "about_title": "About {name}",
+    "more_about": "More about {name}",
+    "show_more_styles": "Show 2 more styles",
+    "discount_code": "Discount Code",
+    "home": "Home",
+    "featured_on": "FEATURED ON",
+    "featured_items": "Featured List",
+    "alternative_tools": "Alternative tools",
+    "category": "Category",
+    "featured_note_title": "Featured placement",
+    "featured_note_description": "This tool is in the featured queue and receives stronger placement across directory listings."
+  },
+  "submit": {
+    "badge": "Grow your audience",
+    "title": "Submit Your Tool",
+    "description": "Showcase your tool to a community of active users and builders. Complete the submission in three steps.",
+    "steps": {
+      "details": "Details",
+      "details_desc": "Tool info",
+      "promote": "Promote",
+      "promote_desc": "Select plan",
+      "success": "Success",
+      "success_desc": "All set"
+    },
+    "auth_required": {
+      "title": "Sign in to submit your tool",
+      "description": "You can preview the submission flow first, but publishing a tool requires an account so we can link the submission and payment to you.",
+      "login": "Sign In to Continue",
+      "back_home": "Back Home"
+    },
+    "form": {
+      "section_title": "Tool Details",
+      "section_description": "Provide accurate information so users can discover your tool quickly.",
+      "name": "Tool Name",
+      "name_placeholder": "AI Assistant",
+      "url": "Website URL",
+      "tagline": "Tagline",
+      "tagline_placeholder": "The ultimate AI tool for developers",
+      "description": "Description",
+      "description_placeholder": "Tell us more about your tool, its core features, and who it's for...",
+      "logo": "Logo",
+      "thumbnail": "Thumbnail",
+      "pricing": "Tool Pricing Model",
+      "pricing_placeholder": "Select tool pricing",
+      "pricing_hint": "This describes whether your product is free or paid for end users.",
+      "categories": "Categories",
+      "categories_hint": "Select at least one category.",
+      "github": "GitHub URL (Optional)",
+      "next": "Next Step"
+      ,
+      "unexpected_error": "Something went wrong. Please try again."
+    },
+    "validation": {
+      "name_required": "Name is required",
+      "url_required": "URL is required",
+      "url_invalid": "Please enter a valid URL",
+      "tagline_required": "Tagline is required",
+      "description_required": "Description is required",
+      "logo_required": "Logo is required",
+      "thumbnail_required": "Thumbnail is required",
+      "categories_required": "Please select at least one category."
+    },
+    "pricing_options": {
+      "free": "Free",
+      "paid": "Paid"
+    },
+    "payment": {
+      "title": "Choose Your Submission Promotion Plan",
+      "description": "This step only decides whether to buy faster review and featured placement. It does not change the tool pricing model you selected in step one.",
+      "processing": "Redirecting to payment...",
+      "failed": "Payment failed",
+      "checkout_request_failed": "Unable to start checkout. Please try again.",
+      "checkout_url_missing": "Payment link is unavailable. Please try again.",
+      "free": {
+        "title": "Standard Submission",
+        "description": "Join the normal review queue and get listed in our directory",
+        "action": "Choose Free Plan",
+        "features": [
+          "Standard listing",
+          "SEO optimized page",
+          "Community support",
+          "7-14 days review time"
+        ]
+      },
+      "pro": {
+        "badge": "Hot",
+        "title": "Featured Submission",
+        "description": "Buy faster review and stronger placement",
+        "product_name": "Featured Submission",
+        "order_description": "Featured submission for {name}",
+        "unit": "One-time",
+        "action": "Pay and Submit",
+        "choose_provider": "Choose payment provider",
+        "features": [
+          "Featured placement across search results and listings",
+          "Accelerated review within 24 hours",
+          "Exclusive featured badge on cards and detail pages",
+          "One-time permanent payment, no hidden fees",
+          "Permanent featured status without recurring subscription"
+        ]
+      }
+    },
+    "messages": {
+      "submit_success": "Tool submitted successfully.",
+      "item_id_required": "Item ID is required.",
+      "item_not_found": "Tool not found.",
+      "submit_failed": "Failed to submit tool.",
+      "complete_failed": "Failed to complete free submission.",
+      "checkout_item_id_required": "Item ID is required.",
+      "checkout_item_not_found": "Tool not found.",
+      "checkout_invalid_status": "This tool cannot be submitted right now.",
+      "checkout_no_auth": "Please sign in first.",
+      "checkout_provider_missing": "No payment provider is configured.",
+      "checkout_provider_not_found": "Payment provider not found.",
+      "checkout_creem_product_missing": "Creem product is not configured for directory submission.",
+      "checkout_failed": "Failed to create checkout session.",
+      "checkout_in_progress": "A checkout session is already in progress. Please complete it or try again shortly."
+    },
+    "success": {
+      "title": "Submission Received",
+      "description": "Your tool has been submitted successfully. We will review it and notify you after it goes live.",
+      "back_home": "Back Home",
+      "submit_another": "Submit Another",
+      "next_title": "What happens next?",
+      "next_steps": [
+        "Our curation team reviews the submission for quality and accuracy.",
+        "If approved, your tool will appear in relevant categories.",
+        "You will receive an email once the review is complete."
+      ]
+    },
+    "image_upload": {
+      "invalid_type": "Only image files are allowed.",
+      "file_too_large": "Image size must be less than 2MB.",
+      "upload_success": "Image uploaded successfully.",
+      "upload_failed": "Failed to upload image.",
+      "alt_uploaded": "Uploaded image",
+      "change": "Change",
+      "upload_logo": "Upload Logo",
+      "upload_thumbnail": "Upload Thumbnail",
+      "spec": "2MB limit • JPG, PNG, WebP"
+    }
+  },
+  "categories": {
+    "ai": "Artificial Intelligence",
+    "directory": "Directory",
+    "image": "Image Generation & Editing",
+    "video": "Video",
+    "chatbots": "Chatbots",
+    "writing": "Writing",
+    "audio": "Audio",
+    "boilerplates": "Boilerplates",
+    "design": "Design",
+    "content-creators": "Content Creators",
+    "building-products": "Building Products",
+    "social-media": "Social Media",
+    "education": "Education",
+    "automation": "Automation",
+    "health": "Health",
+    "productivity": "Productivity",
+    "translation": "Translation",
+    "games": "Games",
+    "browser-extensions": "Browser Extensions",
+    "seo": "SEO",
+    "daily-life": "Daily Life",
+    "advertising": "Advertising",
+    "developer-tools": "Developer Tools",
+    "marketing": "Marketing",
+    "no-code": "No Code",
+    "analytics": "Analytics",
+    "ai-tools": "AI Tools"
+  }
+}

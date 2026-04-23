@@ -1,0 +1,17 @@
+{
+  "organization": "Organization",
+  "overview": "Overview",
+  "type": "Type",
+  "maturity": "Maturity",
+  "release_date": "Release date",
+  "topics": "Related topics",
+  "related_papers": "Related papers",
+  "related_updates": "Related updates",
+  "next_reads": "Next reads",
+  "next_hub": "Hub",
+  "next_topic": "Topic",
+  "next_paper": "Paper",
+  "official_link": "Official page",
+  "demo_link": "Demo",
+  "repo_link": "Repository"
+}

@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "title": "About the world-models site",
+    "description": "What this site tracks and how the editorial workflow works."
+  },
+  "eyebrow": "About",
+  "title": "About this site",
+  "description": "This project tracks world-model papers, systems, and weekly developments with a bilingual editorial workflow.",
+  "sections": {
+    "scope_title": "Scope",
+    "scope_body": "The site focuses on world models, adjacent predictive systems, embodied and robotics world models, driving simulators, and other major systems that materially shape the category.",
+    "workflow_title": "Workflow",
+    "workflow_body": "Version 1 is file-based and editor-curated. New candidates are gathered from papers, official blogs, GitHub repositories, and major release channels, then reviewed before publication.",
+    "editorial_title": "Editorial principle",
+    "editorial_body": "The goal is not to mirror every feed. The goal is to surface the highest-signal items that help practitioners, operators, and curious readers understand the field."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "title": "World-model projects",
+    "description": "Track representative world-model systems, demos, and platforms."
+  },
+  "eyebrow": "Systems Index",
+  "title": "World-model projects",
+  "description": "Representative projects, demos, and platforms that turn world-model research into usable systems.",
+  "guide_title": "How to use this project index",
+  "guide_description": "Use this page to move from papers to actual systems. Compare which labs are shipping simulators, embodied stacks, robotics platforms, or driving systems, then follow the links into projects that best represent each branch of the market.",
+  "section_title": "Project library",
+  "all_topics": "All topics",
+  "cta": "View details",
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What qualifies as a world-model project on this page?",
+        "answer": "Projects here are systems, demos, or platforms that put world-model ideas into practice, including simulators, embodied agents, robotics stacks, driving systems, and foundational model platforms."
+      },
+      {
+        "question": "Why mix research demos and product platforms together?",
+        "answer": "Because readers usually want to understand how ideas move from papers to usable systems. Keeping both in one index makes it easier to compare maturity, scope, and deployment direction."
+      },
+      {
+        "question": "How should I evaluate which project matters most?",
+        "answer": "Look at the organization, release timing, project type, and the related papers or updates linked from each detail page. Together they show whether a project is exploratory, platform-level, or already influencing real products."
+      }
+    ]
+  }
+}

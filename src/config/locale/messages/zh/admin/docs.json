@@ -1,0 +1,100 @@
+{
+  "fields": {
+    "path": "访问路径",
+    "path_tip": "完整的访问路径，例如：'/guide/installation'，系统会自动从中提取标识符",
+    "slug": "标识符",
+    "slug_tip": "URL友好的标识符，例如：'getting-started'、'installation'",
+    "title": "标题",
+    "description": "描述",
+    "content": "内容",
+    "locale": "语言",
+    "editor": "编辑器",
+    "preview": "实时预览",
+    "preview_mode": "预览模式",
+    "preview_pc": "PC",
+    "preview_mobile": "移动端",
+    "begin_preview": "开始输入以查看预览",
+    "parent": "父文档",
+    "parent_root": "根目录（无父文档）",
+    "parent_tip": "选择父文档以创建层级结构",
+    "icon": "图标",
+    "icon_tip": "Lucide图标名称（例如：'Book'、'FileText'、'Settings'）",
+    "sort": "排序",
+    "sort_tip": "数字越小越靠前（0、1、2...）",
+    "status": "状态",
+    "status_published": "已发布",
+    "status_draft": "草稿",
+    "created_at": "创建时间",
+    "updated_at": "更新时间"
+  },
+  "list": {
+    "title": "文档管理",
+    "crumbs": {
+      "admin": "管理后台",
+      "docs": "文档管理"
+    },
+    "columns": {
+      "title": "标题",
+      "level": "层级",
+      "locale": "语言",
+      "status": "状态",
+      "sort": "排序",
+      "updatedAt": "更新时间"
+    },
+    "level": {
+      "root": "根目录",
+      "level": "第"
+    },
+    "status": {
+      "published": "已发布",
+      "draft": "草稿",
+      "archived": "已归档"
+    },
+    "buttons": {
+      "add": "添加文档",
+      "edit": "编辑",
+      "view": "查看",
+      "delete": "删除",
+      "search": "搜索",
+      "reset": "重置",
+      "deleteConfirm": "确定要删除这个文档吗？"
+    },
+    "tabs": {
+      "all": "全部",
+      "en": "英文",
+      "zh": "中文"
+    },
+    "search": {
+      "placeholder": "搜索标题..."
+    }
+  },
+  "add": {
+    "title": "添加文档",
+    "crumbs": {
+      "admin": "管理后台",
+      "docs": "文档管理",
+      "add": "添加文档"
+    },
+    "buttons": {
+      "submit": "添加文档"
+    }
+  },
+  "edit": {
+    "title": "编辑文档",
+    "crumbs": {
+      "admin": "管理后台",
+      "docs": "文档管理",
+      "edit": "编辑文档"
+    },
+    "buttons": {
+      "submit": "更新文档"
+    }
+  },
+  "messages": {
+    "required_fields": "Slug 和标题不能为空。",
+    "add_success": "文档添加成功。",
+    "edit_success": "文档更新成功。",
+    "add_failed": "文档添加失败。",
+    "update_failed": "文档更新失败。"
+  }
+}

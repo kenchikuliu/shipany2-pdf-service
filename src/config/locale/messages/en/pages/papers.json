@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "title": "World-model papers",
+    "description": "Browse core world-model papers across research and industry."
+  },
+  "eyebrow": "Research Index",
+  "title": "World-model papers",
+  "description": "A curated paper index spanning foundational world models, video prediction, embodied intelligence, robotics, and autonomous driving.",
+  "guide_title": "How to use this paper index",
+  "guide_description": "Start with the topic filter if you already know your angle. If not, scan the summaries first, then open the papers that define planning, video prediction, embodied agents, and physical-AI transfer. This page is meant to shorten the path from curiosity to a credible reading list.",
+  "section_title": "Paper library",
+  "all_topics": "All topics",
+  "cta": "Paper brief",
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What counts as a world-model paper here?",
+        "answer": "The index focuses on papers that model dynamics, latent environments, action-conditioned prediction, planning with internal simulation, or adjacent predictive systems that materially shaped the world-model category."
+      },
+      {
+        "question": "How should I start if I am new to world models?",
+        "answer": "Start with foundational papers, then branch by use case: video and game environments, robotics and embodied intelligence, or autonomous driving. The editorial summaries are there to help you decide what to read next."
+      },
+      {
+        "question": "Does this page track only academic papers?",
+        "answer": "No. It prioritizes academic papers, but it also reflects papers and technical write-ups that matter for how labs and companies operationalize world-model systems."
+      }
+    ]
+  }
+}

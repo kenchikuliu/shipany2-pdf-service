@@ -1,0 +1,100 @@
+{
+  "fields": {
+    "path": "Access Path",
+    "path_tip": "Full access path, e.g., '/guide/installation'. The system will automatically extract the identifier.",
+    "slug": "Slug",
+    "slug_tip": "URL-friendly identifier, e.g., 'getting-started', 'installation'",
+    "title": "Title",
+    "description": "Description",
+    "content": "Content",
+    "locale": "Language",
+    "editor": "Editor",
+    "preview": "Live Preview",
+    "preview_mode": "Preview Mode",
+    "begin_preview": "Start Begin Preview",
+    "preview_pc": "PC",
+    "preview_mobile": "Mobile",
+    "parent": "Parent Document",
+    "parent_root": "Root (No Parent)",
+    "parent_tip": "Select a parent document to create a hierarchy",
+    "icon": "Icon",
+    "icon_tip": "Lucide icon name (e.g., 'Book', 'FileText', 'Settings')",
+    "sort": "Sort Order",
+    "sort_tip": "Lower numbers appear first (0, 1, 2...)",
+    "status": "Status",
+    "status_published": "Published",
+    "status_draft": "Draft",
+    "created_at": "Created At",
+    "updated_at": "Updated At"
+  },
+  "list": {
+    "title": "Documentation",
+    "crumbs": {
+      "admin": "Admin",
+      "docs": "Documentation"
+    },
+    "columns": {
+      "title": "Title",
+      "level": "Level",
+      "locale": "Language",
+      "status": "Status",
+      "sort": "Sort",
+      "updatedAt": "Updated"
+    },
+    "level": {
+      "root": "Root",
+      "level": "Level"
+    },
+    "status": {
+      "published": "Published",
+      "draft": "Draft",
+      "archived": "Archived"
+    },
+    "buttons": {
+      "add": "Add Document",
+      "edit": "Edit",
+      "view": "View",
+      "delete": "Delete",
+      "search": "Search",
+      "reset": "Reset",
+      "deleteConfirm": "Are you sure you want to delete this document?"
+    },
+    "tabs": {
+      "all": "All",
+      "en": "English",
+      "zh": "Chinese"
+    },
+    "search": {
+      "placeholder": "Search by title..."
+    }
+  },
+  "add": {
+    "title": "Add Document",
+    "crumbs": {
+      "admin": "Admin",
+      "docs": "Documentation",
+      "add": "Add Document"
+    },
+    "buttons": {
+      "submit": "Add Document"
+    }
+  },
+  "edit": {
+    "title": "Edit Document",
+    "crumbs": {
+      "admin": "Admin",
+      "docs": "Documentation",
+      "edit": "Edit Document"
+    },
+    "buttons": {
+      "submit": "Update Document"
+    }
+  },
+  "messages": {
+    "required_fields": "Slug and title are required.",
+    "add_success": "Document added successfully.",
+    "edit_success": "Document updated successfully.",
+    "add_failed": "Failed to add document.",
+    "update_failed": "Failed to update document."
+  }
+}

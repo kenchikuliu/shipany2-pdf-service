@@ -1,0 +1,21 @@
+{
+  "eyebrow": "Topic dossier",
+  "papers_title": "Core papers",
+  "projects_title": "Notable projects",
+  "updates_title": "Recent updates",
+  "timeline_title": "Timeline signals",
+  "paper_count": "Papers",
+  "project_count": "Projects",
+  "update_count": "Updates",
+  "timeline_count": "Milestones",
+  "faq_title": "FAQ",
+  "start_here": {
+    "title": "Start here",
+    "description": "If you only have a few minutes, begin with these three entry points: one paper, one project, and one update that make this topic legible fast.",
+    "paper": "Paper",
+    "project": "Project",
+    "update": "Update"
+  },
+  "next_reads": "Explore next",
+  "next_topic": "Topic"
+}

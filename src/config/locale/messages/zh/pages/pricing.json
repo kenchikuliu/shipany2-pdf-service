@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "title": "定价",
+    "description": "导航收录与推广方案"
+  },
+  "page": {
+    "title": "导航站定价",
+    "sections": {
+      "pricing": {
+        "id": "pricing",
+        "title": "先提交，再审核，再推广",
+        "description": "头部导航站常见的收费方式通常是加速审核和精选曝光。这里的定价只展示当前项目已经能闭环交付的能力：免费提交和付费精选提交。",
+        "groups": [
+          {
+            "name": "submit",
+            "title": "提交方案",
+            "is_featured": true
+          }
+        ],
+        "items": [
+          {
+            "title": "免费提交",
+            "description": "所有工具都可以进入标准编辑审核流程。",
+            "features_title": "包含",
+            "features": [
+              "审核通过后标准收录",
+              "展示在对应分类中",
+              "带 SEO 友好的详情页",
+              "收录后无需持续付费"
+            ],
+            "interval": "one-time",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "unit": "",
+            "is_featured": false,
+            "tip": "适合大多数产品，先走标准审核即可。",
+            "button": {
+              "title": "开始免费提交",
+              "url": "/submit?plan=free",
+              "icon": "RiSendPlaneLine"
+            },
+            "product_id": "directory-submit-free",
+            "product_name": "Directory Submit Free",
+            "group": "submit"
+          },
+          {
+            "title": "精选提交",
+            "description": "一次性付费，进入精选队列，并在通过后获得更高展示权重。",
+            "label": "热门",
+            "features_title": "在免费提交基础上增加",
+            "features": [
+              "列表排序中的精选展示",
+              "进入优先审核队列",
+              "带精选标识，提升点击率",
+              "支付发生在你填写完工具资料之后"
+            ],
+            "interval": "one-time",
+            "amount": 4900,
+            "currency": "USD",
+            "price": "$49",
+            "unit": "",
+            "is_featured": true,
+            "tip": "更适合新品发布、活动期和需要更快曝光的工具。",
+            "button": {
+              "title": "开始精选提交",
+              "url": "/submit?plan=pro",
+              "icon": "RiRocketLine"
+            },
+            "product_id": "directory-submit-pro",
+            "product_name": "Directory Submit Pro",
+            "group": "submit"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "当前方案",
+    "processing": "处理中"
+  }
+}

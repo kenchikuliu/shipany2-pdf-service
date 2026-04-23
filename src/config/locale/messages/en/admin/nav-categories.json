@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "name": "Category Name",
+    "slug": "Slug",
+    "icon": "Icon",
+    "sort": "Sort Order",
+    "status": "Status",
+    "created_at": "Created At",
+    "updated_at": "Updated At"
+  },
+  "tips": {
+    "slug": "Unique slug, e.g. ai-tools.",
+    "icon": "Lucide icon name, e.g. github, tag, globe."
+  },
+  "list": {
+    "title": "Navigation Categories Management",
+    "crumbs": {
+      "admin": "Admin",
+      "nav_categories": "Nav Categories"
+    },
+    "buttons": {
+      "add": "Add Category",
+      "edit": "Edit",
+      "delete": "Archive"
+    }
+  },
+  "messages": {
+    "add_success": "Category added successfully.",
+    "edit_success": "Category updated successfully.",
+    "required_fields": "Name and slug are required.",
+    "add_failed": "Failed to add category.",
+    "update_failed": "Failed to update category."
+  },
+  "values": {
+    "status_active": "Active",
+    "status_inactive": "Inactive"
+  },
+  "add": {
+    "title": "Add New Category",
+    "crumbs": {
+      "admin": "Admin",
+      "nav_categories": "Nav Categories",
+      "add": "Add"
+    },
+    "buttons": {
+      "submit": "Submit"
+    }
+  },
+  "edit": {
+    "title": "Edit Category",
+    "crumbs": {
+      "admin": "Admin",
+      "nav_categories": "Nav Categories",
+      "edit": "Edit"
+    },
+    "buttons": {
+      "submit": "Update"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+@import 'fumadocs-ui/css/neutral.css';
+@import 'fumadocs-ui/css/preset.css';
+
+body {
+  background-color: var(--background);
+}
+
+.docs strong {
+  font-weight: 500;
+}
+
+.docs ul li {
+  list-style-type: square;
+  margin-left: 1em;
+  line-height: 2em;
+}
+
+.docs h2 {
+  font-size: 1.5em;
+}
+
+.docs a:not([href^='#']) {
+  color: var(--primary);
+}
+
+.markdown-body img,
+.fd-docs-body img,
+.docs article img,
+article img {
+  width: min(100%, 500px);
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+  border-radius: 8px;
+  cursor: zoom-in;
+}
+
+@media (max-width: 768px) {
+  .markdown-body img,
+  .fd-docs-body img,
+  .docs article img,
+  article img {
+    width: 100%;
+    max-width: 100%;
+  }
+}

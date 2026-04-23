@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "title": "World-model updates",
+    "description": "Read the latest high-signal updates across world-model research and industry."
+  },
+  "eyebrow": "Weekly tracking",
+  "title": "World-model updates",
+  "description": "A curated stream of recent papers, company releases, surveys, and platform moves relevant to the world-model ecosystem.",
+  "guide_title": "How to use this update stream",
+  "guide_description": "This page is the fastest way to track what changed recently. Use it to spot new releases, company moves, milestone papers, and ecosystem shifts, then jump into the linked paper, project, or topic page for deeper context.",
+  "all_topics": "All topics",
+  "cta": "Read brief",
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What kinds of updates are included here?",
+        "answer": "The stream includes high-signal papers, company launches, benchmark shifts, technical surveys, and major platform moves that change how people understand or build world-model systems."
+      },
+      {
+        "question": "How often should I check this page?",
+        "answer": "Use it as a weekly dashboard. The goal is not volume, but signal, so each update is selected to help readers catch important movement in the field without tracking every feed manually."
+      },
+      {
+        "question": "How is this different from the paper and project pages?",
+        "answer": "The papers and projects pages are reference indexes. This page is recency-first. It helps you follow what is changing now, then use the other indexes to place those changes in context."
+      }
+    ]
+  }
+}

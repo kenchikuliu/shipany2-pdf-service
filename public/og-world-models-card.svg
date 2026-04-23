@@ -1,0 +1,60 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1080" y2="570" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E172A"/>
+      <stop offset="0.58" stop-color="#081120"/>
+      <stop offset="1" stop-color="#050A14"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(847 286) rotate(90) scale(188 206)">
+      <stop stop-color="#A7F3D0" stop-opacity="0.9"/>
+      <stop offset="0.38" stop-color="#67E8F9" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#bg)"/>
+  <g opacity="0.8">
+    <path d="M86 130H1114" stroke="#1E293B" stroke-width="1.2"/>
+    <path d="M86 230H1114" stroke="#1E293B" stroke-width="1.2"/>
+    <path d="M86 330H1114" stroke="#1E293B" stroke-width="1.2"/>
+    <path d="M86 430H1114" stroke="#1E293B" stroke-width="1.2"/>
+    <path d="M86 530H1114" stroke="#1E293B" stroke-width="1.2"/>
+    <path d="M250 74V560" stroke="#1E293B" stroke-width="1.2"/>
+    <path d="M430 74V560" stroke="#1E293B" stroke-width="1.2"/>
+    <path d="M610 74V560" stroke="#1E293B" stroke-width="1.2"/>
+    <path d="M790 74V560" stroke="#1E293B" stroke-width="1.2"/>
+    <path d="M970 74V560" stroke="#1E293B" stroke-width="1.2"/>
+  </g>
+  <ellipse cx="846" cy="286" rx="230" ry="170" fill="url(#core)"/>
+  <circle cx="846" cy="286" r="82" fill="#0B1527" stroke="#2B4D68" stroke-width="1.5"/>
+  <circle cx="846" cy="286" r="55" fill="#0E2033" stroke="#67E8F9" stroke-opacity="0.55" stroke-width="2.4"/>
+  <circle cx="846" cy="286" r="26" fill="#8CF4D0" fill-opacity="0.16" stroke="#A7F3D0" stroke-width="2"/>
+  <path d="M511 433C598 395 674 364 748 312C788 284 820 252 855 219C893 184 941 155 1005 136" stroke="#67E8F9" stroke-opacity="0.65" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M525 455C617 414 698 377 770 317C826 271 867 208 953 165" stroke="#34D399" stroke-opacity="0.42" stroke-width="1.8" stroke-dasharray="7 10" stroke-linecap="round"/>
+  <g>
+    <rect x="665" y="109" width="220" height="120" rx="26" fill="#0B1527" stroke="#29475A" stroke-width="1.4"/>
+    <rect x="686" y="129" width="178" height="84" rx="18" fill="#0D1A2C" stroke="#24364A" stroke-width="1.2"/>
+    <path d="M700 192C727 167 748 160 770 161C796 162 820 176 840 174C850 173 860 169 868 160V213H686V188C692 186 697 184 700 192Z" fill="#A7F3D0" fill-opacity="0.2"/>
+    <path d="M703 186C727 161 748 152 770 152C798 152 819 173 840 171C850 170 860 166 868 159" stroke="#A7F3D0" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="914" y="226" width="186" height="122" rx="28" fill="#0B1527" stroke="#1C3551" stroke-width="1.4"/>
+    <path d="M939 323C972 286 1004 266 1039 266C1069 266 1091 281 1099 312V329H939V323Z" fill="#93C5FD" fill-opacity="0.18"/>
+    <path d="M951 327C955 301 968 280 987 268C1015 251 1052 253 1073 271C1086 282 1095 300 1099 327" stroke="#A5F3FC" stroke-width="2.6" stroke-linecap="round"/>
+    <circle cx="975" cy="328" r="18" fill="#0F172A" stroke="#A5F3FC" stroke-width="2.6"/>
+    <circle cx="1068" cy="328" r="18" fill="#0F172A" stroke="#A5F3FC" stroke-width="2.6"/>
+  </g>
+  <g>
+    <rect x="521" y="373" width="206" height="144" rx="28" fill="#0B1527" stroke="#1F3D39" stroke-width="1.4"/>
+    <rect x="541" y="391" width="164" height="94" rx="18" fill="#0F1C31" stroke="#1D334D" stroke-width="1.2"/>
+    <path d="M581 460C594 431 608 406 628 394C646 383 669 387 681 407C695 433 701 459 703 484H552C555 472 562 463 581 460Z" fill="#92F5CF" fill-opacity="0.18"/>
+    <path d="M576 484C579 450 591 416 609 397C624 382 645 380 658 396C673 416 679 448 681 484" stroke="#8BFFD1" stroke-width="2.7" stroke-linecap="round"/>
+    <circle cx="629" cy="415" r="26" stroke="#8BFFD1" stroke-width="2.7"/>
+  </g>
+  <rect x="82" y="80" width="170" height="32" rx="16" fill="#0D1A2C" stroke="#22354E"/>
+  <text x="104" y="101" fill="#B8C4D9" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">WORLD MODELS</text>
+  <text x="88" y="236" fill="#F8FAFC" font-size="68" font-weight="700" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">World Models Atlas</text>
+  <text x="88" y="305" fill="#D7E3F1" font-size="28" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Latest research, papers, projects, timelines, and weekly progress</text>
+  <text x="88" y="354" fill="#9FB3C8" font-size="24" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">for world models, embodied AI, robotics, and physical AI.</text>
+  <rect x="88" y="430" width="234" height="40" rx="20" fill="#10263C"/>
+  <text x="114" y="456" fill="#A7F3D0" font-size="18" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">worldmodelsatlas.site</text>
+</svg>

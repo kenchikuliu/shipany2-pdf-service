@@ -1,0 +1,21 @@
+{
+  "eyebrow": "专题档案",
+  "papers_title": "核心论文",
+  "projects_title": "代表项目",
+  "updates_title": "近期进展",
+  "timeline_title": "时间线信号",
+  "paper_count": "论文",
+  "project_count": "项目",
+  "update_count": "进展",
+  "timeline_count": "里程碑",
+  "faq_title": "常见问题",
+  "start_here": {
+    "title": "先从这里开始",
+    "description": "如果你只有几分钟，就先看这三个入口：一篇论文、一个项目、一条更新，能最快理解这个专题在讲什么。",
+    "paper": "论文",
+    "project": "项目",
+    "update": "更新"
+  },
+  "next_reads": "继续探索",
+  "next_topic": "专题"
+}

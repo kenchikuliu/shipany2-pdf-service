@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "title": "Pricing",
+    "description": "Directory submission and promotion plans"
+  },
+  "page": {
+    "title": "Directory Pricing",
+    "sections": {
+      "pricing": {
+        "id": "pricing",
+        "title": "Launch, Get Reviewed, Then Promote",
+        "description": "Most directories monetize through faster review and featured placement. The pricing below maps to what this project can actually deliver today: free submission and paid featured submission.",
+        "groups": [
+          {
+            "name": "submit",
+            "title": "Submission Plans",
+            "is_featured": true
+          }
+        ],
+        "items": [
+          {
+            "title": "Free Submission",
+            "description": "Standard editorial review for every approved tool.",
+            "features_title": "Includes",
+            "features": [
+              "Standard listing after approval",
+              "Placement in relevant categories",
+              "SEO-friendly tool detail page",
+              "No recurring fee to stay listed"
+            ],
+            "interval": "one-time",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "unit": "",
+            "is_featured": false,
+            "tip": "Best for most launches. Start with a normal review.",
+            "button": {
+              "title": "Start Free Submission",
+              "url": "/submit?plan=free",
+              "icon": "RiSendPlaneLine"
+            },
+            "product_id": "directory-submit-free",
+            "product_name": "Directory Submit Free",
+            "group": "submit"
+          },
+          {
+            "title": "Featured Submission",
+            "description": "Pay once to move into the featured queue and get stronger placement after approval.",
+            "label": "Popular",
+            "features_title": "Everything in Free, plus",
+            "features": [
+              "Featured placement in listing order",
+              "Priority review queue",
+              "Featured badge for higher visibility",
+              "One-time payment handled during submission"
+            ],
+            "interval": "one-time",
+            "amount": 4900,
+            "currency": "USD",
+            "price": "$49",
+            "unit": "",
+            "is_featured": true,
+            "tip": "Payment is collected after you submit the tool details.",
+            "button": {
+              "title": "Start Featured Submission",
+              "url": "/submit?plan=pro",
+              "icon": "RiRocketLine"
+            },
+            "product_id": "directory-submit-pro",
+            "product_name": "Directory Submit Pro",
+            "group": "submit"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "Current Plan",
+    "processing": "Processing"
+  }
+}
