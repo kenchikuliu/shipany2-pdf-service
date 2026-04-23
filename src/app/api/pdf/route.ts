@@ -188,7 +188,7 @@ export async function POST(req: NextRequest) {
     }
 
     if (waitMs > 0) {
-      await page.waitForTimeout(waitMs);
+      await new Promise((resolve) => setTimeout(resolve, waitMs));
     }
 
     const headerHtml = buildBar('header', header, logo);
